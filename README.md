@@ -6,7 +6,7 @@
   3. _Average channel quality_ (0 to 100)
   4. _Good channel ratio_ (fraction of UEs with quality > channel threshold)
   5. _Average UE distance from BS_ (0 to 240)
-  6. _Average throughput_(Mbps, 0 to 50)
+  6. _Average throughput_ (Mbps, 0 to 50)
   7. _Average interference level_
 
 **Propagation Model:**
