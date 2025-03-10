@@ -1,4 +1,4 @@
-**An Advanced simulation environment for a 6G base station with realistic propagation characteristics.**
+**An Advanced simulation environment for 6G with realistic propagation characteristics.**
 
 **State (7-dimensional):**
   1. _Network load_ (0 to 100)
