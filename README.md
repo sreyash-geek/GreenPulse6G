@@ -1,6 +1,6 @@
-An Advanced simulation environment for a 6G base station with realistic propagation characteristics.
+**An Advanced simulation environment for a 6G base station with realistic propagation characteristics.**
 
-State (7-dimensional):
+**State (7-dimensional):**
   1. Network load (0 to 100)
   2. BS mode (0: off, 1: sleep, 2: active)
   3. Average channel quality (0 to 100)
@@ -9,7 +9,7 @@ State (7-dimensional):
   6. Average throughput (Mbps, 0 to 50)
   7. Average interference level 
 
-Propagation Model:
+**Propagation Model:**
   - Log-distance path loss: PL = 30 + 10*n*log10(d) + shadowing, with n=3.5, shadowing ~ N(0,8).
   - LOS blockage: if the line from BS to UE intersects an obstacle (building), adding 20 dB loss.
   - Multipath fading: Rayleigh fading loss = 20*log10(r) where r ~ Rayleigh(scale=1).
@@ -17,16 +17,16 @@ Propagation Model:
   - Received power: Pr = Pt - (PL + extra losses). Pt = 46 dBm.
   - Channel quality: mapped linearly from Pr: 0 quality at ≤ -90 dBm, 100 quality at ≥ -60 dBm.
 
-Throughput:
+**Throughput:**
   - Computed Throughput = 50 * log2(1 + avg_channel/100). 
 
-Obstacles:
+**Obstacles:**
   - Two fixed buildings in the environment.
 
-Actions:
+**Actions:**
   - 0: No change, 1: Sleep, 2: Active, 3: Off.
 
-Reward:
+**Reward:**
   - Composite reward that penalizes energy consumption and rewards service quality.
 
 **To run the simulation:**
