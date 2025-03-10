@@ -6,8 +6,8 @@
   3. _Average channel quality_ (0 to 100)
   4. _Good channel ratio_ (fraction of UEs with quality > channel threshold)
   5. _Average UE distance from BS_ (0 to 240)
-  6. _Average throughput _(Mbps, 0 to 50)
-  7. _Average interference level _
+  6. _Average throughput_(Mbps, 0 to 50)
+  7. _Average interference level_
 
 **Propagation Model:**
   - _Log-distance path loss:_ PL = 30 + 10*n*log10(d) + shadowing, with n=3.5, shadowing ~ N(0,8).
